@@ -1,0 +1,35 @@
+.meal-list {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.meal-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    flex: 0 0 auto;
+    width: 200px;
+}
+
+.meal-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ingredient-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ingredient-image {
+    margin: 10px;
+    text-align: center;
+}
+
+.ingredient-image img {
+    max-width: 80px;
+    height: auto;
+    border: 1px solid #ddd;
+}
